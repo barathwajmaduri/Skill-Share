@@ -1,0 +1,37 @@
+@import "tailwindcss";
+
+@theme {
+  /* Fonts */
+  --font-nunito: "Nunito", sans-serif;
+  --font-fraunces: "Fraunces", serif;
+  --font-jakarta: "Plus Jakarta Sans", sans-serif;
+  --font-opensans: "Open Sans", sans-serif;
+
+  /* Login Screen Colors */
+  --color-primary-teal: #14b8a6;
+  --color-accent-orange: #f97316;
+  --color-cream-bg: #fffbf2;
+  --color-deep-text: #134e4a;
+
+  /* Onboarding Screen Colors */
+  --color-terracotta: #E2725B;
+  --color-olive: #708238;
+  --color-soft-blue: #95B9C7;
+  --color-earthy-cream: #FDFBF7;
+  --color-earthy-dark: #2C2C2C;
+  --color-sage: #A9BA9D;
+  --color-earthy-green: #4A5D23;
+  --color-earthy-rust: #C15A3E;
+
+  /* Dashboard Screen Colors */
+  --color-growth-primary: #16a34a;
+  --color-growth-yellow: #facc15;
+  --color-growth-bg: #f8fafc;
+  --color-growth-surface: #ffffff;
+}
+
+@layer utilities {
+  .text-shadow {
+    text-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  }
+}
